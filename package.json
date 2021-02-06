@@ -1,0 +1,66 @@
+{
+  "name": "umd-electron",
+  "version": "1.0.0",
+  "description": "UMD App",
+  "main": "index.js",
+  "scripts": {
+    "st": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "windows": "electron-forge make --platform"
+  },
+  "keywords": [],
+  "author": "RmR",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.54",
+    "@electron-forge/maker-deb": "^6.0.0-beta.54",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.54",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
+    "@electron-forge/maker-zip": "^6.0.0-beta.54",
+    "electron": "^11.2.2",
+    "electron-icon-builder": "^2.0.1"
+  },
+  "dependencies": {
+    "ipc": "0.0.1",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "electronPackagerConfig": {
+        "appCopyright": "RmR",
+        "name": "UMD App",
+        "extendInfo": ".Info.plist",
+        "icon": "./favicon.ico"
+      },
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "umd_electron"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {
+            "name": "UMD App",
+            "artifactName": "UMD App",
+            "icon": "./icons/png/512x512.png"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  }
+}
