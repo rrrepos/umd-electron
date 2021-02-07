@@ -21,7 +21,7 @@ function createWindow() {
       console.error(err)
     }
   }
-  win.loadURL("http://localhost:8080/electron");
+  win.loadURL("https://rrrepos.github.io/umd-project-org/electron");
   win.webContents.on('did-finish-load', () => {
     if (arraybuffer) {
       win.webContents.send("fileinfo", { "filepath": _filepath, "buffer": arraybuffer });
