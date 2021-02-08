@@ -35,7 +35,7 @@
         "productName": "UMD App",
         "name": "UMD App",
         "extendInfo": ".Info.plist",
-        "icon": "favicon.ico",
+        "icon": "icons\\win\\icon.ico",
         "win32metadata": {
           "ProductName": "UMD App 1.0.0"
         }
