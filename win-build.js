@@ -2,8 +2,8 @@ const electronInstaller = require('electron-winstaller');
 
 try {
     electronInstaller.createWindowsInstaller({
-      appDirectory: '/tmp/build/my-app-64',
-      outputDirectory: '/tmp/build/installer64',
+      appDirectory: './',
+      outputDirectory: './',
       authors: 'RmR',
       exe: 'umd-app.1.0.0.exe',
       iconUrl: './icons/win/icon.ico',
