@@ -44,7 +44,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "iconUrl": "./favicon.ico"
+            "iconUrl": "https://dl.dropboxusercontent.com/s/u66b8mqv9fweiik/favicon.ico?dl=1"
           }
         },
         {
