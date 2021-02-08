@@ -44,9 +44,8 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "iconUrl": "favicon.ico"
+            "iconUrl": "./favicon.ico"
           }
-
         },
         {
           "name": "@electron-forge/maker-zip",
