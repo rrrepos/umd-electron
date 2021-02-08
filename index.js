@@ -13,7 +13,7 @@ function createWindow() {
       nodeIntegration: true
     }
   });
-  win.setMenu(null);
+  //win.setMenu(null);
   const _filepath = process.argv[1];
   let arraybuffer;
   if (_filepath) {
