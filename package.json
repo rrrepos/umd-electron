@@ -39,13 +39,9 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "description": "UMD App",
             "exe": "umd-app.0.0.1",
-            "setupExe": "umd-app.0.0.1",
-            "setupMsi": "umd-app.0.0.1",
             "name": "UMD-App",
-            "iconUrl": "./icons/win/icon.ico",
-            "copyright": "RmR"
+            "iconUrl": "./icons/win/icon.ico"
           }
         },
         {
