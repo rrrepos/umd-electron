@@ -32,13 +32,21 @@
       "electronPackagerConfig": {
         "appCopyright": "RmR",
         "executableName": "umd-app.1.0.0",
+        "productName": "UMD App",
         "name": "UMD App",
         "extendInfo": ".Info.plist",
-        "icon": "favicon.ico"
+        "icon": "favicon.ico",
+        "win32metadata": {
+          "ProductName": "UMD App 1.0.0"
+        }
       },
       "makers": [
         {
-          "name": "@electron-forge/maker-squirrel"
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "iconUrl": "favicon.ico"
+          }
+
         },
         {
           "name": "@electron-forge/maker-zip",
