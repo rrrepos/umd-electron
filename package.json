@@ -31,20 +31,14 @@
       "packagerConfig": {},
       "electronPackagerConfig": {
         "appCopyright": "RmR",
+        "executableName": "umd-app.1.0.0",
         "name": "UMD App",
         "extendInfo": ".Info.plist",
-        "icon": "./favicon.ico"
+        "icon": "favicon.ico"
       },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "UMD-App",
-            "iconUrl": "https://dl.dropboxusercontent.com/s/u66b8mqv9fweiik/favicon.ico",
-            "setupIcon": "favicon.ico",
-            "icon": "favicon.ico",
-            "description": "UMD App"
-          }
         },
         {
           "name": "@electron-forge/maker-zip",
