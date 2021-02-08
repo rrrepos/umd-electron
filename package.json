@@ -39,7 +39,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "UMD App",
+            "name": "UMD-App",
             "icon": "./icons/win/icon.ico"
 
           }
