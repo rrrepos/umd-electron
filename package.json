@@ -40,7 +40,8 @@
           "name": "@electron-forge/maker-squirrel",
           "config": {
             "name": "UMD-App",
-            "iconUrl": "file:///C:/Users/connect2rmr/projects/umd-electron/icons/win/icon.ico",
+            "iconUrl": "icons/win/icon.ico",
+            "setupIcon": "favicon.ico",
             "description": "UMD App"
           }
         },
