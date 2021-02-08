@@ -39,7 +39,9 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "umd_electron"
+            "name": "UMD App",
+            "icon": "./icons/win/icon.ico"
+
           }
         },
         {
