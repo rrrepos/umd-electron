@@ -41,6 +41,8 @@
           "config": {
             "name": "UMD-App",
             "iconUrl": "https://dl.dropboxusercontent.com/s/u66b8mqv9fweiik/favicon.ico",
+            "setupIcon": "favicon.ico",
+            "icon": "favicon.ico",
             "description": "UMD App"
           }
         },
