@@ -1,6 +1,7 @@
 const { app, BrowserWindow } = require('electron');
 var fs = require('fs');
 
+app.disableHardwareAcceleration()
 if (require('electron-squirrel-startup')) return app.quit();
 
 function createWindow() {
