@@ -45,7 +45,7 @@
           "name": "@electron-forge/maker-squirrel",
           "config": {
             "setupIcon": "icons\\win\\icon.ico",
-            "iconUrl": "icons\\win\\icon.ico"
+            "iconUrl": "https://raw.githubusercontent.com/rrrepos/umd-electron/main/icons/win/icon.ico"
           }
         },
         {
