@@ -35,7 +35,7 @@
         "productName": "UMD App",
         "name": "UMD App",
         "extendInfo": ".Info.plist",
-        "icon": "icons\\win\\icon.ico",
+        "icon": "icons/win/icon.ico",
         "win32metadata": {
           "ProductName": "UMD App 1.0.0"
         }
@@ -44,6 +44,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
+            "icon": "icons/win/icon.ico",
             "setupIcon": "icons\\win\\icon.ico",
             "iconUrl": "https://raw.githubusercontent.com/rrrepos/umd-electron/main/icons/win/icon.ico"
           }
